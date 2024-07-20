@@ -1,0 +1,8 @@
+name : GokulKumar
+age : 21
+Degree : B.E (CSE)
+College : LMEC
+year : final year
+domain : web devoloper
+CGPA : 83%
+skills : REactjs , Nodejs , MongoDB ,git, github , photoshop ,problem solving 

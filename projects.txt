@@ -1,0 +1,6 @@
+1. E-COMMERCE SITE:
+             using reactjs,nodejs,mongoDB,Postman API
+2. NETFLIX CLONE:
+             using HTML,CSS,Bootstrap
+3. STACK GAME:
+             using HTML,CSS,Bootstrap,JavaScript

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Week 1 Task</title>
+    <style>
+        table, th, td {
+                border: 1px solid white;
+                border-collapse: collapse;
+               }
+             th, td {
+                 background-color: #96D4D4;
+             }
+       
+  
+    </style>
+   
+</head>
+<body>
+    <div>
+        <h1>GokulKumar</h1>
+        <ul>
+            <li>
+                <a href="about.txt" target="_blank">about</a>
+                
+            </li>
+            <li>
+                <a href="projects.txt" target="_blank">Projects</a>
+            </li>
+            <li>
+                <a href="biodata.txt" target="_blank">bio dtata</a>
+            </li>
+            <li>
+                <a href="contact.txt" target="_blank">contact</a>
+            </li>
+        </ul>
+        <h1>About Me</h1>
+        <p>welcome to my portfolio , myself a web devoloper</p>
+        <h1>Projects</h1>
+        <table>
+            <tr>
+                <th>name</th>
+                <th>description</th>
+                <th>link</th>
+            </tr>
+            <tr>
+                <td>Netflix clone</td>
+                <td>this is a clone Netflix launch page</td>
+                <td><a href="https://necro-sword.github.io/netflix_launch/" target="_blank">visit</a></td>
+            </tr>
+            <tr>
+                <td>Stack game</td>
+                <td>this is a game lonely dev by JS</td>
+                <td><a href="https://necro-sword.github.io/stack-game-project/" target="_blank">visit</a></td>
+            </tr>
+        </table>
+        <div>
+            <img src="images/1.jpg" alt="preparing alone">
+            <img src="images/2.jpg" alt="spread knowledge">
+        </div>
+        <div>
+            <form action="#" method="post">
+                <h2>Contact Me</h2>
+            
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" required>
+                </div>
+            
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+            
+                <div>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+            
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+            
+                <div>
+                    <label>Gender:</label><br>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+            
+                <div>
+                    <label>Interests:</label><br>
+                    <input type="checkbox" id="coding" name="interests[]" value="coding">
+                    <label for="coding">Coding</label><br>
+                    <input type="checkbox" id="reading" name="interests[]" value="reading">
+                    <label for="reading">Reading</label><br>
+                    <input type="checkbox" id="music" name="interests[]" value="music">
+                    <label for="music">Music</label>
+                </div>
+            
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+            
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
